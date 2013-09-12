@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main" >
+<!-- 
+    <EditText
+        android:id="@+id/add_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/entry_hint"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="add_btn"
+        android:text="Add" />
+
+    <EditText
+        android:id="@+id/search_text_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/text_box"
+        android:layout_below="@+id/add_button"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="search" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/search_text_box"
+        android:contentDescription="search_btn"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/enter_num_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/search_button"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="enter post id"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/enter_num_box"
+        android:contentDescription="delete_btn"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/list_table_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:contentDescription="list_table_btn"
+        android:text="List Table" /> -->
+
+    <Button
+        android:id="@+id/get_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/list_table_btn"
+        android:layout_below="@+id/list_table_btn"
+        android:contentDescription="get_data_btn"
+        android:text="Get Data" />
+<!-- 
+    <EditText
+        android:id="@+id/display_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/get_twitter"
+        android:layout_below="@+id/get_twitter"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/clear_db_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/display_area"
+        android:contentDescription="Clear Database"
+        android:text="Clear DB" /> -->
+
+</RelativeLayout>
