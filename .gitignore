@@ -29,7 +29,7 @@ proguard/
 .idea/
 
 # Secret Data for Twitter API
-SecretData.java
+# SecretData.java
 
 # Others
 ._.DS_Store
