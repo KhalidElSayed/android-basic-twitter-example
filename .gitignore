@@ -28,6 +28,9 @@ proguard/
 *.iws
 .idea/
 
+# Secret Data for Twitter API
+src/uk/co/richardgilmour/twitterexample/SecretData.java
+
 # Others
 ._.DS_Store
 .DS_Store
