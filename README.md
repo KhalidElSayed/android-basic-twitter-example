@@ -1,0 +1,1 @@
+for an example of SecretData.java see [this gist](https://gist.github.com/Linnesq/6543802)
