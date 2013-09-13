@@ -2,8 +2,6 @@ package uk.co.richardgilmour.twitterexample;
 
 import java.io.IOException;
 
-import uk.co.richardgilmour.marakanasqlite.R;
-
 import com.twitterapime.rest.Credential;
 import com.twitterapime.rest.Timeline;
 import com.twitterapime.rest.UserAccountManager;
